@@ -1,0 +1,8 @@
+/*box-sizing*/
+html {
+    box-sizing: border-box; /* life hack*/
+}
+*, *::before, ::after {  /* life hack*/
+    box-sizing: inherit;
+}
+/*box-sizing*/
