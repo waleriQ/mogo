@@ -86,15 +86,25 @@ html {
     .nav {
        display: none;
    }
+
 }
 
     @media screen and (max-width: 575px) {
         .container {
             width: 100%;
-            padding: 0 15px;
+            padding: 0 25px;
         }
         .intro__subtitle {
-            font-size: 64px !important;
+            font-size: 54px !important;
+        }
+        .intro .intro__title {
+            margin-top: 40px;
+        }
+        .slider .slider_item {
+            font-size: 16px;
+        }
+        .slider .slider__num {
+            display: none;
         }
     }
 

@@ -16,7 +16,15 @@
     opacity: .6;
     position: relative;
     transition: scale .2s linear;
+    white-space: nowrap;
 }
+.slider__inner {
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .slider_item.active:before {
     content: '';
     display: block;

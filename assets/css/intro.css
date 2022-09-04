@@ -55,9 +55,3 @@ border: 2px solid #fff;
     background: #ffffff;
     color: black;
 }
-.slider__inner {
-    padding: 0 15px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
