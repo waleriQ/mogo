@@ -56,28 +56,9 @@
     border: none;
     background: none;
     display: none;
+}
+.menu__open-img {
+    width: 40px;
+    height: 50px;
 
 }
-
-.ham-menu {
-    display: inline-block;
-    position: relative;
-
-} /* margin = (width-height)/2 */
-.ham-menu, .ham-menu::before, .ham-menu::after {
-    height: 6px;
-    width: 35px;
-    border-radius: 5px;
-    background-color: white;
-
-}
-.ham-menu::before, .ham-menu::after {
-    content: "";
-    display: block;
-    position: absolute;
-}
-.ham-menu::before {
-    bottom: 150%;
-}
-.ham-menu::after {
-    top: 150%; }
