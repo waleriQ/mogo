@@ -1,0 +1,51 @@
+.header__logo-title {
+    font-size: 30px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+.header {
+    margin-top: 15px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+
+
+}
+.header__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__list {
+    display: flex;
+
+    font-size: 16px;
+
+}
+.header__link {
+    text-decoration: none;
+    padding-left: 11px;
+    padding-right:11px;
+    font-family: 'Montserrat';
+    color: white;
+    text-transform: uppercase;
+    transition: color .4s linear;
+}
+.header__link:hover {
+    color: #fce38a;
+    border-bottom: #fce38a 1px solid;
+}
+.header__item-shop {
+    padding-left: 11px;
+    padding-right:11px;
+    transition: scale .2s linear;
+    background-size: cover;
+}
+.header__item-shop:hover {
+    scale: 1.2;
+}
+
