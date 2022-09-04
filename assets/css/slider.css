@@ -1,0 +1,39 @@
+.slider {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+}
+.slider_item {
+    width: 20%;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    padding: 20px 0;
+    border-top: 2px solid #fff;
+    opacity: .6;
+    position: relative;
+    transition: scale .2s linear;
+}
+.slider_item.active:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 70px;
+    height: 3px;
+    background-color: red;
+    top: -3px;
+    left: 0;
+}
+.slider__num {
+    font-size: 24px;
+    font-weight: 700;
+}
+.slider_item.active {
+    opacity: 1;
+}
+.slider_item:hover{
+    scale: 1.1;
+}
