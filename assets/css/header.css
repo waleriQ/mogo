@@ -12,8 +12,6 @@
     left: 0;
     top: 0;
     right: 0;
-
-
 }
 
 .header__inner {
@@ -52,12 +50,13 @@
 }
 
 /*BURGER MENU*/
-.menu__open {
+.burger {
     border: none;
     background: none;
     display: none;
+    cursor: pointer;
 }
-.menu__open-img {
+.burger-img {
     width: 40px;
     height: 50px;
 

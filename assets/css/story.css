@@ -1,0 +1,35 @@
+.story {
+    margin-top: 80px;
+    text-align: center;
+}
+.main__subtitle {
+    font-size: 24px;
+    font-family: 'Kaushan Script';
+}
+.main__title {
+    font-size: 30px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.main__title:after {
+    content: '';
+    display: block;
+    background: #f38181;
+    height: 3px;
+    width: 70px;
+    margin: 30px auto 0;
+}
+.story__description {
+    font-size: 16px;
+    color: #adadad;
+    line-height: 1.4;
+}
+.story__images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 35px;
+    margin-top: 90px;
+}

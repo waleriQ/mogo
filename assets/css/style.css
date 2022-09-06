@@ -80,7 +80,7 @@ html {
     .intro__subtitle{
         font-size: 94px !important
     }
-    .menu__open {
+    .burger {
         display: block !important
     }
     .nav {
