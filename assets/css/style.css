@@ -106,6 +106,9 @@ html {
         .slider .slider__num {
             display: none;
         }
+        .container .main__subtitle {
+            margin-top: 40px;
+        }
     }
 
 

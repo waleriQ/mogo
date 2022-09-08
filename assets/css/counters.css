@@ -11,7 +11,6 @@
     flex: 1 1 0;
     border-left: 1px solid #fff;
     padding: 70px 20px;
-
 }
 .counter__item:last-child {
     border-right: 1px solid #fff;
@@ -27,5 +26,50 @@
     font-size: 14px;
     font-family: 'Montserrat';
     text-transform: uppercase;
-
 }
+
+/* Responsive starts here */
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 1140px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .container {
+        width: 960px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .container {
+        width: 720px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .container {
+        width: 540px;
+    }
+    .counter {
+        flex-direction: column;
+        align-items: center;
+    }
+    .counters {
+        margin-top: 30px;
+    }
+    .counter__item {
+        border: none;
+        border-bottom: 1px solid white;
+        padding: 30px 20px;
+    }
+    .counter__item:last-child {
+        border: none;
+    }
+}
+@media screen and (max-width: 575px) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+}
+
