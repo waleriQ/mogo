@@ -1,0 +1,36 @@
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+
+}
+.services__title {
+    color: #4d4d4d;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+}
+.services__subtitle {
+    margin-top: 10px;
+    line-height: 1.4;
+}
+.services__hr {
+    opacity: .4;
+}
+.services__subtitle {
+    opacity: .5;
+    color: black;margin-bottom: 50px;
+}
+.services__item {
+    flex: 1 1 0;
+    position: relative;
+    padding-left: 60px;
+    margin-right: 20px;
+}
+.services__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.services__item-border {
+
+}

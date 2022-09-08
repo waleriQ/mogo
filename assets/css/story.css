@@ -1,10 +1,8 @@
-.story {
-    margin-top: 80px;
-    text-align: center;
-}
 .main__subtitle {
+    margin-top: 80px;
     font-size: 24px;
     font-family: 'Kaushan Script';
+    text-align: center;
 }
 .main__title {
     font-size: 30px;
@@ -13,6 +11,7 @@
     margin-top: 20px;
     margin-bottom: 30px;
     text-transform: uppercase;
+    text-align: center;
 }
 .main__title:after {
     content: '';
@@ -32,7 +31,6 @@
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 35px;
     margin-top: 90px;
-
 
 }
 .story__item {
