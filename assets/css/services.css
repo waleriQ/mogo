@@ -3,6 +3,10 @@
     flex-wrap: wrap;
     margin-top: 50px;
 
+
+}
+.section__services {
+    margin-bottom: 30px;
 }
 .services__title {
     color: #4d4d4d;
@@ -30,7 +34,4 @@
     position: absolute;
     top: 0;
     left: 0;
-}
-.services__item-border {
-
 }
