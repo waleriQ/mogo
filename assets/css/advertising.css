@@ -1,0 +1,9 @@
+.advertising_information {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 0;
+}
+.advertising_information-description-tem-pic {
+   position: absolute;
+    right: 10px;
+}
