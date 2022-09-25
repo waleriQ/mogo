@@ -6,14 +6,14 @@
 //
 //
 
-let person = {
-     name: 'Valter',
-     FullAge: {
-          age: 26,
-          YearBorn: 1994,
-     },
-     Gender: 'female'
+const account = {
+     name: 'Bill',
+     age: 18,
+     gender: 'Мужчина',
+     accountShow() {
+          return 'Имя: ' + this.name + ' Возраст: ' + this.age + ' Пол: ' + this.gender
+     }
 }
+console.log(account);
 
-let PersonClone = Object.assign({}, person);
 
